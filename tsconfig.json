@@ -1,0 +1,19 @@
+{
+  "exclude": ["node_modules", "dist", "./stories"],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ES2020",
+    "module": "ES2020",
+    "lib": ["ES2020", "DOM"],
+    "jsx": "react",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDirs": ["./src", "./stories"],
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
